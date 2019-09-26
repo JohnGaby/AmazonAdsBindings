@@ -1,0 +1,18 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!-- Change the visibility of a class -->
+  <attr path="/api/package[@name='com.amazon.device.ads']/interface[@name='AdControlCallback']" name="visibility">public</attr>
+
+  <!-- Change the visibility of a class -->
+  <attr path="/api/package[@name='com.amazon.device.ads']/interface[@name='AdSDKBridgeFactory']" name="visibility">public</attr>
+
+  <!-- Change the visibility of a method -->
+  <!--<attr path="/api/package[@name='namespace']/class[@name='ClassName']/method[@name='MethodName']" name="visibility">public</attr>-->
+</metadata>
